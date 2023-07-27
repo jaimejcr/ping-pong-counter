@@ -1,0 +1,66 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .marcador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .jugador {
+    background-color: #009688;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .jugador:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p.puntos {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  
+}
+
+button.plus {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+button.reset {
+  background-color: #f44336;
+  color: #fff;
+}
+
+button.plus:hover, button.reset:hover {
+  background-color: #45a049;
+}
+
+button.plus:active, button.reset:active {
+  background-color: #3e8e41;
+}
